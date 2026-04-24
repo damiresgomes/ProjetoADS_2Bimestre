@@ -1,1 +1,134 @@
-<h3>Hello Word</h3>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Lava Jato Brito</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Site de Lava Jato">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="imgs/logo.png">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Inicio">
+            <img src="imgs/logo2.png" alt="Logo Lava Jato Brito" title="Logo Lava Jato Brito">
+        </a>
+
+        <a href="javascript: mostrarmenu()" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Inicio">Início</a>
+                </li>
+                <li>
+                    <a href="servico.html" title="Servico">Serviços</a>
+                </li>
+                <li>
+                    <a href="agendamento.html" title="Agendamento">Agendamento</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="divtitulo">
+            <h1>Bem-vindos ao Lava Jato Brito</h1>
+            <p>O melhor cuidado para o seu veículo</p>
+
+            <div class="botaotitulo">
+                <button class="botaoagendamento">
+                    <a href="agendamento.html">Agendar Agora</a>
+                </button>
+                <button class="botaoservicos" >
+                    <a href="servico.html">Ver Serviços</a>
+                </button>
+            </div>
+        </div>
+
+        <section>
+        <div class="divbloco3">
+            <h2 class="titulo2" >Por que escolher o Lava Jato Brito?</h2>
+            <div class="grid">
+                <div class="coluna">
+                    <div class="card">
+                        <img class="carro" src="imgs/carro.png" alt="Icon Carro" title="Icon Carro">
+                        <h2>Lavagem Completa</h2>
+                        <p>Limpeza interna e externa do seu veículo com produtos de qualidade.</p>
+                    </div>
+                </div>
+
+                <div class="coluna">
+                    <div class="card">
+                        <img src="imgs/limpeza.png" alt="Icon Limpeza" title="Icon Limpeza">
+                        <h2>Polimento</h2>
+                        <p>Deixamos seu carro com brilho intenso e proteção da pintura.</p>
+                    </div>
+                </div>
+
+                <div class="coluna">
+                    <div class="card">
+                        <img src="imgs/relogio.png" alt="Icon Relógio" title="Icon Relógio">
+                        <h2>Rapidez</h2>
+                        <p>Serviço ágil sem perder a qualidade. Seu tempo é importante.</p>
+                    </div>
+                </div>
+
+                <div class="coluna">
+                    <div class="card">
+                        <img src="imgs/seguraca.png" alt="Icon Segurança" title="Icon Segurança">
+                        <h2>Garantia</h2>
+                        <p>Satisfação garantida ou refazemos o serviço gratuitamente.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </section>
+
+        <h3>Pronto para deixar seu carro impecável?</h3>
+        <p class="descricao" >Agende seu horário agora e aproveite nossos serviços de qualidade com preços justos.</p>
+        <div class="divultimobotao">
+            <button>
+                <a href="agendamento.html">Fazer Agendamento</a>
+            </button>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="gridfooter">
+            <div class="colunafooter">
+                <div class="cardfooter">
+                    <h2>Contato</h2>
+                    <p class="pfooter" >Telefone: (19) 9 1234-4321</p>
+                    <p class="pfooter" >Email: contato@lavajatobrito</p>
+                    <p class="pfooter" >Segunda a Sexta: 7:00 - 17:00</p>
+                    <p class="pfooterS" >Sábado: 7:00 - 13:00</p>
+                </div>
+            </div>
+
+            <div class="colunafooter">
+                <div class="cardfooter">
+                    <h2>Endereço</h2>
+                    <p class="pfooter" >Avenida invernada, 1341</p>
+                    <p class="pfooter" >Valinhos - São Paulo, SP</p>
+                    <p class="pfooter" >CEP: 13210-348</p>
+                </div>
+            </div>
+        </div>
+        <p class="rodape" >© 2026 Lava Jato Brito. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function mostrarmenu(){
+            document.querySelector("header nav").classList.toggle("mostrar")
+        }
+    </script>
+
+</body>
+</html>
